@@ -18,7 +18,7 @@
                     <li><a href="#">Sobre</a></li>
                     <li><a href="#">Cardápio</a></li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="/contatos">Contato</a>
                     </li>
                 </ul>
             </nav>
@@ -37,19 +37,19 @@
             <h3>Bolos</h3>
             <div class="menu-items">
                 <div class="menu-item">
-                    <img src="img/bolo-chocolate.jpg" alt="Bolo de Chocolate">
+                    <img src="{{ url_for('static', filename='img/bolo-chocolate.jpg') }}" alt="Bolo de Chocolate">
                     <h4>Bolo de Chocolate</h4>
                     <p>Delicioso bolo de chocolate com cobertura de ganache.</p>
                     <span>R$ 15,00</span>
                 </div>
                 <div class="menu-item">
-                    <img src="img/bolo-baunilha.jpg" alt="Bolo de Baunilha">
+                    <img src="{{ url_for('static', filename='img/bolo-baunilha.jpg') }}" alt="Bolo de Baunilha">
                     <h4>Bolo de Baunilha</h4>
                     <p>Suave bolo de baunilha com recheio de creme.</p>
                     <span>R$ 12,00</span>
                 </div>
                 <div class="menu-item">
-                    <img src="img/bolo-red-velvet.jpg" alt="Bolo Red Velvet">
+                    <img src="{{ url_for('static', filename='img/bolo-red-velvet.jpg') }}" alt="Bolo Red Velvet">
                     <h4>Bolo Red Velvet</h4>
                     <p>Bolo Red Velvet com cobertura de cream cheese.</p>
                     <span>R$ 18,00</span>
@@ -61,19 +61,19 @@
             <h3>Doces Trufados</h3>
             <div class="menu-items">
                 <div class="menu-item">
-                    <img src="img/brigadeiro.jpg" alt="Brigadeiro">
+                    <img src="{{ url_for('static', filename='img/brigadeiro.jpg') }}" alt="Brigadeiro">
                     <h4>Brigadeiro</h4>
                     <p>Docinho de chocolate com granulado.</p>
                     <span>R$ 5,00</span>
                 </div>
                 <div class="menu-item">
-                    <img src="img/beijinho.webp" alt="Beijinho">
+                    <img src="{{ url_for('static', filename='img/beijinho.webp') }}" alt="Beijinho">
                     <h4>Beijinho</h4>
                     <p>Docinho de coco com granulado.</p>
                     <span>R$ 5,00</span>
                 </div>
                 <div class="menu-item">
-                    <img src="img/trufa.jpg" alt="Trufa">
+                    <img src="{{ url_for('static', filename='img/trufa.jpg') }}"  alt="Trufa">
                     <h4>Trufa de Maracujá</h4>
                     <p>Trufa recheada com maracujá.</p>
                     <span>R$ 6,00</span>
@@ -85,19 +85,19 @@
             <h3>Doces Tradicionais</h3>
             <div class="menu-items">
                 <div class="menu-item">
-                    <img src="img/cajuzinho.jpg" alt="Cajuzinho">
+                    <img src="{{ url_for('static', filename='img/cajuzinho.jpg') }}" alt="Cajuzinho">
                     <h4>Cajuzinho</h4>
                     <p>Doce de amendoim com cobertura de chocolate.</p>
                     <span>R$ 6,00</span>
                 </div>
                 <div class="menu-item">
-                    <img src="img/palha italiana.avif" alt="Palha Italiana">
+                    <img src="{{ url_for('static', filename='img/palha-italiana.avif') }}" alt="Palha Italiana">
                     <h4>Palha Italiana</h4>
                     <p>Doce de chocolate com biscoito.</p>
                     <span>R$ 7,00</span>
                 </div>
                 <div class="menu-item">
-                    <img src="img/curau-milho.jpg" alt="Curau">
+                    <img src="{{ url_for('static', filename='img/curau.webp') }}" alt="Curau">
                     <h4>Curau de Milho</h4>
                     <p>Delicioso curau cremoso de milho verde.</p>
                     <span>R$ 8,00</span>
@@ -107,7 +107,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2024 Confeitaria Delícias. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Confeitaria Sempre Doce. Todos os direitos reservados.</p>
     </footer>
 
 </body>
