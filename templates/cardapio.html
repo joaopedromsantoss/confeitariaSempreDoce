@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confeitaria Delícia</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/cardapio.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Confeitaria Sempre Doce</h1>
+            <nav>
+                <ul>
+                    <li><a href="/">Início</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Cardápio</a></li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Nosso Cardápio</h2>
+            <p>Explore nossas deliciosas opções de bolos e doces!</p>
+        </div>
+    </section>
+
+    <main class="container menu">
+        <div class="category">
+            <h3>Bolos</h3>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="img/bolo-chocolate.jpg" alt="Bolo de Chocolate">
+                    <h4>Bolo de Chocolate</h4>
+                    <p>Delicioso bolo de chocolate com cobertura de ganache.</p>
+                    <span>R$ 15,00</span>
+                </div>
+                <div class="menu-item">
+                    <img src="img/bolo-baunilha.jpg" alt="Bolo de Baunilha">
+                    <h4>Bolo de Baunilha</h4>
+                    <p>Suave bolo de baunilha com recheio de creme.</p>
+                    <span>R$ 12,00</span>
+                </div>
+                <div class="menu-item">
+                    <img src="img/bolo-red-velvet.jpg" alt="Bolo Red Velvet">
+                    <h4>Bolo Red Velvet</h4>
+                    <p>Bolo Red Velvet com cobertura de cream cheese.</p>
+                    <span>R$ 18,00</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h3>Doces Trufados</h3>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="img/brigadeiro.jpg" alt="Brigadeiro">
+                    <h4>Brigadeiro</h4>
+                    <p>Docinho de chocolate com granulado.</p>
+                    <span>R$ 5,00</span>
+                </div>
+                <div class="menu-item">
+                    <img src="img/beijinho.webp" alt="Beijinho">
+                    <h4>Beijinho</h4>
+                    <p>Docinho de coco com granulado.</p>
+                    <span>R$ 5,00</span>
+                </div>
+                <div class="menu-item">
+                    <img src="img/trufa.jpg" alt="Trufa">
+                    <h4>Trufa de Maracujá</h4>
+                    <p>Trufa recheada com maracujá.</p>
+                    <span>R$ 6,00</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h3>Doces Tradicionais</h3>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="img/cajuzinho.jpg" alt="Cajuzinho">
+                    <h4>Cajuzinho</h4>
+                    <p>Doce de amendoim com cobertura de chocolate.</p>
+                    <span>R$ 6,00</span>
+                </div>
+                <div class="menu-item">
+                    <img src="img/palha italiana.avif" alt="Palha Italiana">
+                    <h4>Palha Italiana</h4>
+                    <p>Doce de chocolate com biscoito.</p>
+                    <span>R$ 7,00</span>
+                </div>
+                <div class="menu-item">
+                    <img src="img/curau-milho.jpg" alt="Curau">
+                    <h4>Curau de Milho</h4>
+                    <p>Delicioso curau cremoso de milho verde.</p>
+                    <span>R$ 8,00</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Confeitaria Delícias. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
